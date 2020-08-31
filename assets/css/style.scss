@@ -39,7 +39,7 @@
     margin: 0 auto;
     background-color: #33333d;
     border-radius: 20px;
-    padding: 80px 80px 40px 80px;
+    padding: 80px 0 40px 80px;
     display: flex;
     justify-content: space-between;
     .content {
@@ -77,6 +77,153 @@
       width: 400px;
       height: 500px;
       border-radius: 10px;
+    }
+  }
+  .chooseCourse {
+    margin-top: 50px;
+    text-align: center;
+    h5 {
+      display: inline-block;
+    }
+    button {
+      border: none;
+      outline: none;
+      color: white;
+      background-color: #f56962;
+      width: 180px;
+      height: 50px;
+      border-radius: 5px;
+    }
+    .courses {
+      margin-top: 50px !important;
+      margin: 0 auto;
+      width: 800px;
+      display: flex;
+      justify-content: space-between;
+      i {
+        position: absolute;
+        padding-top: 20px;
+      }
+      h5 {
+        padding-top: 60px;
+        color: black;
+        font-size: 16px;
+        transition: 0.3s ease-in-out;
+      }
+      .design {
+        width: 120px;
+        height: 110px;
+        background-color: #efeff6;
+        color: #5444a5;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        align-items: center;
+        transition: 0.3s ease-in-out;
+      }
+      .design:hover {
+        background-color: #5444a5;
+        color: white !important;
+        h5 {
+          color: white;
+        }
+      }
+      .development {
+        width: 120px;
+        height: 110px;
+        background-color: #fef3e8;
+        color: #ef8543;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        align-items: center;
+        transition: 0.3s ease-in-out;
+      }
+      .development:hover {
+        background-color: #ef8543;
+        color: white !important;
+        h5 {
+          color: white;
+        }
+      }
+      .it {
+        width: 120px;
+        height: 110px;
+        background-color: #ddf7ff;
+        color: #18afed;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        align-items: center;
+        transition: 0.3s ease-in-out;
+      }
+      .it:hover {
+        background-color: #18afed;
+        color: white !important;
+        h5 {
+          color: white;
+        }
+      }
+      .business {
+        width: 120px;
+        height: 110px;
+        background-color: #e6faea;
+        color: #5fd46d;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        align-items: center;
+        transition: 0.3s ease-in-out;
+      }
+      .business:hover {
+        background-color: #5fd46d;
+        color: white !important;
+        h5 {
+          color: white;
+        }
+      }
+      .marketing {
+        width: 120px;
+        height: 110px;
+        background-color: #efeff6;
+        color: #5444a5;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        align-items: center;
+        transition: 0.3s ease-in-out;
+      }
+      .marketing:hover {
+        background-color: #5444a5;
+        color: white !important;
+        h5 {
+          color: white;
+        }
+      }
+      .photography {
+        width: 120px;
+        height: 110px;
+        background-color: #ddf7ff;
+        color: #18afed;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        align-items: center;
+        transition: 0.3s ease-in-out;
+      }
+      .photography:hover {
+        background-color: #18afed;
+        color: white !important;
+        h5 {
+          color: white;
+        }
+      }
     }
   }
 }

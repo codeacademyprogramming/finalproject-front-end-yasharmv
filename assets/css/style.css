@@ -48,7 +48,7 @@
   margin: 0 auto;
   background-color: #33333d;
   border-radius: 20px;
-  padding: 80px 80px 40px 80px;
+  padding: 80px 0 40px 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,5 +95,229 @@
   width: 400px;
   height: 500px;
   border-radius: 10px;
+}
+
+.container .chooseCourse {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.container .chooseCourse h5 {
+  display: inline-block;
+}
+
+.container .chooseCourse button {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #f56962;
+  width: 180px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.container .chooseCourse .courses {
+  margin-top: 50px !important;
+  margin: 0 auto;
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .chooseCourse .courses i {
+  position: absolute;
+  padding-top: 20px;
+}
+
+.container .chooseCourse .courses h5 {
+  padding-top: 60px;
+  color: black;
+  font-size: 16px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.container .chooseCourse .courses .design {
+  width: 120px;
+  height: 110px;
+  background-color: #efeff6;
+  color: #5444a5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.container .chooseCourse .courses .design:hover {
+  background-color: #5444a5;
+  color: white !important;
+}
+
+.container .chooseCourse .courses .design:hover h5 {
+  color: white;
+}
+
+.container .chooseCourse .courses .development {
+  width: 120px;
+  height: 110px;
+  background-color: #fef3e8;
+  color: #ef8543;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.container .chooseCourse .courses .development:hover {
+  background-color: #ef8543;
+  color: white !important;
+}
+
+.container .chooseCourse .courses .development:hover h5 {
+  color: white;
+}
+
+.container .chooseCourse .courses .it {
+  width: 120px;
+  height: 110px;
+  background-color: #ddf7ff;
+  color: #18afed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.container .chooseCourse .courses .it:hover {
+  background-color: #18afed;
+  color: white !important;
+}
+
+.container .chooseCourse .courses .it:hover h5 {
+  color: white;
+}
+
+.container .chooseCourse .courses .business {
+  width: 120px;
+  height: 110px;
+  background-color: #e6faea;
+  color: #5fd46d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.container .chooseCourse .courses .business:hover {
+  background-color: #5fd46d;
+  color: white !important;
+}
+
+.container .chooseCourse .courses .business:hover h5 {
+  color: white;
+}
+
+.container .chooseCourse .courses .marketing {
+  width: 120px;
+  height: 110px;
+  background-color: #efeff6;
+  color: #5444a5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.container .chooseCourse .courses .marketing:hover {
+  background-color: #5444a5;
+  color: white !important;
+}
+
+.container .chooseCourse .courses .marketing:hover h5 {
+  color: white;
+}
+
+.container .chooseCourse .courses .photography {
+  width: 120px;
+  height: 110px;
+  background-color: #ddf7ff;
+  color: #18afed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.container .chooseCourse .courses .photography:hover {
+  background-color: #18afed;
+  color: white !important;
+}
+
+.container .chooseCourse .courses .photography:hover h5 {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
