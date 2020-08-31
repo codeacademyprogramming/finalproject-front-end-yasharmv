@@ -1,0 +1,82 @@
+.container {
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  .navbar {
+    width: 90%;
+    margin: 0 auto;
+    .logo {
+      display: flex;
+      align-items: center;
+      img {
+        width: 28px;
+        height: 28px;
+      }
+      h1 {
+        margin-left: 10px;
+        font-size: 25px;
+        padding: 5px 5px 0 0;
+      }
+    }
+    .search {
+      i {
+        margin: 0 15px 0 15px;
+      }
+      button {
+        width: 125px;
+        height: 47px;
+        background-color: #f56962;
+        color: white;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .courseSearch {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #33333d;
+    border-radius: 20px;
+    padding: 80px 80px 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    .content {
+      h2 {
+        color: white;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 60px;
+      }
+      p {
+        color: white;
+      }
+      .navbar {
+        width: 400px;
+        padding: 0;
+        text-align: center;
+        position: relative;
+        input {
+          border: none;
+          width: 320px;
+        }
+        i {
+          width: 50px;
+          color: white;
+          background-color: #f56962;
+          width: 85px;
+          height: 100%;
+          position: absolute;
+          right: 0;
+          padding-top: 10px;
+        }
+      }
+    }
+    img {
+      width: 400px;
+      height: 500px;
+      border-radius: 10px;
+    }
+  }
+}
