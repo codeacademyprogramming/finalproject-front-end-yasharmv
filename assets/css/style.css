@@ -1,5 +1,5 @@
 .container {
-  margin: 0 auto;
+  margin: 0;
   font-family: "Poppins", sans-serif;
 }
 
@@ -554,5 +554,125 @@
   border-radius: 0 10px 0 10px;
   width: 140px;
   height: 50px;
+}
+
+.container .studentGoals {
+  background-color: #efeff6;
+  padding-top: 20px;
+}
+
+.container .studentGoals .heading {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+}
+
+.container .studentGoals .heading .buttons .fas {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  padding-top: 15%;
+  border-radius: 5px;
+}
+
+.container .studentGoals .students {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px;
+}
+
+.container .studentGoals .students .card {
+  position: relative;
+  width: 340px;
+  height: 250px;
+  padding: 20px;
+  border: none;
+  border-radius: 0 10px 0 10px;
+  opacity: 50%;
+}
+
+.container .studentGoals .students .card img {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .studentGoals .students .card h6 {
+  position: absolute;
+  left: 25%;
+  top: 15%;
+}
+
+.container .studentGoals .students .card p {
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.container .studentGoals .students .active {
+  opacity: 100% !important;
+}
+
+.container footer {
+  background-color: #282834;
+  padding: 40px 40px 0px 40px;
+}
+
+.container footer .footer-menu {
+  width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.container footer .footer-menu h5 {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.container footer .footer-menu li {
+  color: white;
+  font-size: 15px;
+  opacity: 50%;
+  list-style-type: none;
+  margin-bottom: 7px;
+}
+
+.container footer .rightsreserved {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  opacity: 50%;
+  bottom: 0;
+}
+
+.container footer .rightsreserved p {
+  color: white;
+}
+
+.container footer .rightsreserved i {
+  color: white;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,5 @@
 .container {
-  margin: 0 auto;
+  margin: 0;
   font-family: "Poppins", sans-serif;
   .navbar {
     width: 90%;
@@ -402,6 +402,97 @@
       border-radius: 0 10px 0 10px;
       width: 140px;
       height: 50px;
+    }
+  }
+  .studentGoals {
+    background-color: #efeff6;
+    padding-top: 20px;
+    .heading {
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      .buttons {
+        .fas {
+          width: 50px;
+          height: 50px;
+          background-color: white;
+          text-align: center;
+          padding-top: 15%;
+          border-radius: 5px;
+        }
+      }
+    }
+    .students {
+      display: flex;
+      justify-content: space-between;
+      padding: 30px;
+      .card {
+        position: relative;
+        width: 340px;
+        height: 250px;
+        padding: 20px;
+        border: none;
+        border-radius: 0 10px 0 10px;
+        opacity: 50%;
+        img {
+          width: 60px;
+          height: 60px;
+          display: inline-block;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+        h6 {
+          position: absolute;
+          left: 25%;
+          top: 15%;
+        }
+        p {
+          margin-top: 20px;
+          line-height: 30px;
+        }
+      }
+      .active {
+        opacity: 100% !important;
+      }
+    }
+  }
+
+  footer {
+    background-color: #282834;
+    padding: 40px 40px 0px 40px;
+    .footer-menu {
+      width: 900px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      margin-bottom: 70px;
+      h5 {
+        color: white;
+        margin-bottom: 30px;
+        font-size: 20px;
+      }
+      li {
+        color: white;
+        font-size: 15px;
+        opacity: 50%;
+        list-style-type: none;
+        margin-bottom: 7px;
+      }
+    }
+    .rightsreserved {
+      display: flex;
+      justify-content: space-between;
+      opacity: 50%;
+
+      bottom: 0;
+      p {
+        color: white;
+      }
+      i {
+        color: white;
+        margin-left: 10px;
+      }
     }
   }
 }
