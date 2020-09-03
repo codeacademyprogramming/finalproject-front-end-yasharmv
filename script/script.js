@@ -15,14 +15,54 @@
 //   }
 // });
 
+// let cards = document.querySelectorAll(".card");
 
+// cards.forEach((card) => {
+//   card.addEventListener("click", function () {
+//     cards.forEach((card) => card.classList.remove("active"));
+//     this.classList.add("active");
+//   });
+// });
 
+// $(function () {
+//   $(".main-carousel").flickity({
+//     // options
+//     cellAlign: "left",
+//     contain: true,
+//     wrapAround: true,
+//   });
+// });
 
-let cards = document.querySelectorAll(".card");
+$(".owl1").owlCarousel({
+  loop: true,
+  margin: 30,
+  nav: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    600: {
+      items: 2,
+    },
+    1000: {
+      items: 3,
+    },
+  },
+});
 
-cards.forEach((card) => {
-  card.addEventListener("click", function () {
-    cards.forEach((card) => card.classList.remove("active"));
-    this.classList.add("active");
-  });
+$(".owl2").owlCarousel({
+  loop: true,
+  margin: 30,
+  nav: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    600: {
+      items: 5,
+    },
+    1000: {
+      items: 5,
+    },
+  },
 });

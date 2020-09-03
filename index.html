@@ -3,18 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="assets/style.css" />
     <title>Document</title>
-  </head>
-  <body>
-
     <link rel="stylesheet" href="assets/css/style.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -24,6 +18,18 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="lib/owl-carousel/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="lib/owl-carousel/assets/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="lib/owl-carousel/assets/owl.theme.green.min.css"
     />
     <title>Document</title>
   </head>
@@ -164,75 +170,86 @@
             </form>
           </nav>
         </div>
-        <img src="assets/images/andrew-neel-ute2XAFQU2I-unsplash.jpg" alt=""/>
-        <div class="courses">
-        </div>
+        <img src="assets/images/andrew-neel-ute2XAFQU2I-unsplash.jpg" alt="" />
+        <div class="courses"></div>
       </div>
       <div class="chooseCourse">
         <h5>Choice favourite course from top category</h5>
-          <button>See all catogories</button>
-          <div class="courses">
-            <div class="design">
-              <i class="fas fa-ruler-combined">
-            </i><h5>Design</h5></div>
-            <div class="development"><i class="fas fa-desktop">
-              
-            </i><h5>Development</h5></div>
-            <div class="it"><i class="fas fa-laptop-code">
-              
-            </i><h5>IT & Software</h5></div>
-            <div class="business"><i class="fas fa-briefcase">
-              
-            </i><h5>Business</h5></div>
-            <div class="marketing"><i class="fas fa-bullhorn">
-              
-            </i><h5>Marketing</h5></div>
-            <div class="photography"><i class="fas fa-camera">
-             
-            </i> <h5>Photography</h5></div>
+        <button>See all catogories</button>
+        <div class="courses">
+          <div class="design">
+            <i class="fas fa-ruler-combined"> </i>
+            <h5>Design</h5>
           </div>
+          <div class="development">
+            <i class="fas fa-desktop"> </i>
+            <h5>Development</h5>
+          </div>
+          <div class="it">
+            <i class="fas fa-laptop-code"> </i>
+            <h5>IT & Software</h5>
+          </div>
+          <div class="business">
+            <i class="fas fa-briefcase"> </i>
+            <h5>Business</h5>
+          </div>
+          <div class="marketing">
+            <i class="fas fa-bullhorn"> </i>
+            <h5>Marketing</h5>
+          </div>
+          <div class="photography">
+            <i class="fas fa-camera"> </i>
+            <h5>Photography</h5>
+          </div>
+        </div>
       </div>
 
       <div class="choice mt-5">
         <div class="heading">
           <h5>Get Choice of your course</h5>
-         <div class="buttons">
-          <div class="dropdown">
-            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Design
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+          <div class="buttons">
+            <div class="dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Design
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
             </div>
+            <button class="viewAll">View all</button>
           </div>
-          <button class="viewAll">View all</button>
-         </div>
         </div>
-        
+
         <div class="ourCourses">
-        <div class=" course course1">
-          <img src="assets//images/architect.jpg" alt="">
-          <div class="stats">
-            <div class="rating">
-              <i class="far fa-star"></i>
-              <p>4.5 (120)</p>
+          <div class="course course1">
+            <img src="assets//images/architect.jpg" alt="" />
+            <div class="stats">
+              <div class="rating">
+                <i class="far fa-star"></i>
+                <p>4.5 (120)</p>
+              </div>
+              <div class="view">
+                <i class="far fa-eye"></i>
+                <p>20.000</p>
+              </div>
+              <div class="lessons">
+                <i class="far fa-play-circle"></i>
+                <p>36 lessons</p>
+              </div>
             </div>
-            <div class="view">
-              <i class="far fa-eye"></i>
-              <p>20.000</p>
-            </div>
-            <div class="lessons">
-              <i class="far fa-play-circle"></i>
-              <p>36 lessons</p>
-            </div>
-          </div>
-          <h4>AWS Certified Solutions 
-            Architect Associate</h4>
+            <h4>AWS Certified Solutions Architect Associate</h4>
             <div class="options">
               <div class="instructor">
-                <img src="assets/images/Rectangle 22.png" alt="">
+                <img src="assets/images/Rectangle 22.png" alt="" />
                 <h5>Nicole Brown</h5>
               </div>
               <div class="price">
@@ -240,169 +257,189 @@
                 <p class="current-price">49.65$</p>
               </div>
             </div>
+          </div>
+          <div class="course course2">
+            <img src="assets//images/analysis.jpg" alt="" />
+            <div class="stats">
+              <div class="rating">
+                <i class="far fa-star"></i>
+                <p>4.5 (120)</p>
+              </div>
+              <div class="view">
+                <i class="far fa-eye"></i>
+                <p>20.000</p>
+              </div>
+              <div class="lessons">
+                <i class="far fa-play-circle"></i>
+                <p>36 lessons</p>
+              </div>
+            </div>
+            <h4>Statistics Data Science and Business Analysis</h4>
+            <div class="options">
+              <div class="instructor">
+                <img src="assets/images/Rectangle 22.png" alt="" />
+                <h5>Nicole Brown</h5>
+              </div>
+              <div class="price">
+                <p class="old-price">99.99$</p>
+                <p class="current-price">49.65$</p>
+              </div>
+            </div>
+          </div>
+          <div class="course course3">
+            <img src="assets//images/architect.jpg" alt="" />
+            <div class="stats">
+              <div class="rating">
+                <i class="far fa-star"></i>
+                <p>4.5 (120)</p>
+              </div>
+              <div class="view">
+                <i class="far fa-eye"></i>
+                <p>20.000</p>
+              </div>
+              <div class="lessons">
+                <i class="far fa-play-circle"></i>
+                <p>36 lessons</p>
+              </div>
+            </div>
+            <h4>AWS Certified Solutions Architect Associate</h4>
+            <div class="options">
+              <div class="instructor">
+                <img src="assets/images/Rectangle 22.png" alt="" />
+                <h5>Nicole Brown</h5>
+              </div>
+              <div class="price">
+                <p class="old-price">99.99$</p>
+                <p class="current-price">49.65$</p>
+              </div>
+            </div>
+          </div>
+          <div class="course course4">
+            <img src="assets//images/business.jpg" alt="" />
+            <div class="stats">
+              <div class="rating">
+                <i class="far fa-star"></i>
+                <p>4.5 (120)</p>
+              </div>
+              <div class="view">
+                <i class="far fa-eye"></i>
+                <p>20.000</p>
+              </div>
+              <div class="lessons">
+                <i class="far fa-play-circle"></i>
+                <p>36 lessons</p>
+              </div>
+            </div>
+            <h4>AWS Certified Solutions Architect Associate</h4>
+            <div class="options">
+              <div class="instructor">
+                <img src="assets/images/Rectangle 22.png" alt="" />
+                <h5>Nicole Brown</h5>
+              </div>
+              <div class="price">
+                <p class="old-price">99.99$</p>
+                <p class="current-price">49.65$</p>
+              </div>
+            </div>
+          </div>
+          <div class="course course5">
+            <img src="assets//images/analysis.jpg" alt="" />
+            <div class="stats">
+              <div class="rating">
+                <i class="far fa-star"></i>
+                <p>4.5 (120)</p>
+              </div>
+              <div class="view">
+                <i class="far fa-eye"></i>
+                <p>20.000</p>
+              </div>
+              <div class="lessons">
+                <i class="far fa-play-circle"></i>
+                <p>36 lessons</p>
+              </div>
+            </div>
+            <h4>Statistics Data Science and Business Analysis</h4>
+            <div class="options">
+              <div class="instructor">
+                <img src="assets/images/Rectangle 22.png" alt="" />
+                <h5>Nicole Brown</h5>
+              </div>
+              <div class="price">
+                <p class="old-price">99.99$</p>
+                <p class="current-price">49.65$</p>
+              </div>
+            </div>
+          </div>
+          <div class="course course6">
+            <img src="assets//images/architect.jpg" alt="" />
+            <div class="stats">
+              <div class="rating">
+                <i class="far fa-star"></i>
+                <p>4.5 (120)</p>
+              </div>
+              <div class="view">
+                <i class="far fa-eye"></i>
+                <p>20.000</p>
+              </div>
+              <div class="lessons">
+                <i class="far fa-play-circle"></i>
+                <p>36 lessons</p>
+              </div>
+            </div>
+            <h4>AWS Certified Solutions Architect Associate</h4>
+            <div class="options">
+              <div class="instructor">
+                <img src="assets/images/Rectangle 22.png" alt="" />
+                <h5>Nicole Brown</h5>
+              </div>
+              <div class="price">
+                <p class="old-price">99.99$</p>
+                <p class="current-price">49.65$</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="course course2"><img src="assets//images/analysis.jpg" alt="">
-          <div class="stats">
-            <div class="rating">
-              <i class="far fa-star"></i>
-              <p>4.5 (120)</p>
-            </div>
-            <div class="view">
-              <i class="far fa-eye"></i>
-              <p>20.000</p>
-            </div>
-            <div class="lessons">
-              <i class="far fa-play-circle"></i>
-              <p>36 lessons</p>
-            </div>
-          </div>
-          <h4>Statistics Data Science and 
-            Business Analysis</h4>
-            <div class="options">
-              <div class="instructor">
-                <img src="assets/images/Rectangle 22.png" alt="">
-                <h5>Nicole Brown</h5>
-              </div>
-              <div class="price">
-                <p class="old-price">99.99$</p>
-                <p class="current-price">49.65$</p>
-              </div>
-            </div></div>
-        <div class=" course course3"><img src="assets//images/architect.jpg" alt="">
-          <div class="stats">
-            <div class="rating">
-              <i class="far fa-star"></i>
-              <p>4.5 (120)</p>
-            </div>
-            <div class="view">
-              <i class="far fa-eye"></i>
-              <p>20.000</p>
-            </div>
-            <div class="lessons">
-              <i class="far fa-play-circle"></i>
-              <p>36 lessons</p>
-            </div>
-          </div>
-          <h4>AWS Certified Solutions 
-            Architect Associate</h4>
-            <div class="options">
-              <div class="instructor">
-                <img src="assets/images/Rectangle 22.png" alt="">
-                <h5>Nicole Brown</h5>
-              </div>
-              <div class="price">
-                <p class="old-price">99.99$</p>
-                <p class="current-price">49.65$</p>
-              </div>
-            </div></div>
-        <div class=" course course4"><img src="assets//images/business.jpg" alt="">
-          <div class="stats">
-            <div class="rating">
-              <i class="far fa-star"></i>
-              <p>4.5 (120)</p>
-            </div>
-            <div class="view">
-              <i class="far fa-eye"></i>
-              <p>20.000</p>
-            </div>
-            <div class="lessons">
-              <i class="far fa-play-circle"></i>
-              <p>36 lessons</p>
-            </div>
-          </div>
-          <h4>AWS Certified Solutions 
-            Architect Associate</h4>
-            <div class="options">
-              <div class="instructor">
-                <img src="assets/images/Rectangle 22.png" alt="">
-                <h5>Nicole Brown</h5>
-              </div>
-              <div class="price">
-                <p class="old-price">99.99$</p>
-                <p class="current-price">49.65$</p>
-              </div>
-            </div></div>
-        <div class="course course5"><img src="assets//images/analysis.jpg" alt="">
-          <div class="stats">
-            <div class="rating">
-              <i class="far fa-star"></i>
-              <p>4.5 (120)</p>
-            </div>
-            <div class="view">
-              <i class="far fa-eye"></i>
-              <p>20.000</p>
-            </div>
-            <div class="lessons">
-              <i class="far fa-play-circle"></i>
-              <p>36 lessons</p>
-            </div>
-          </div>
-          <h4>Statistics Data Science and 
-            Business Analysis</h4>
-            <div class="options">
-              <div class="instructor">
-                <img src="assets/images/Rectangle 22.png" alt="">
-                <h5>Nicole Brown</h5>
-              </div>
-              <div class="price">
-                <p class="old-price">99.99$</p>
-                <p class="current-price">49.65$</p>
-              </div>
-            </div></div>
-        <div class=" course course6"><img src="assets//images/architect.jpg" alt="">
-          <div class="stats">
-            <div class="rating">
-              <i class="far fa-star"></i>
-              <p>4.5 (120)</p>
-            </div>
-            <div class="view">
-              <i class="far fa-eye"></i>
-              <p>20.000</p>
-            </div>
-            <div class="lessons">
-              <i class="far fa-play-circle"></i>
-              <p>36 lessons</p>
-            </div>
-          </div>
-          <h4>AWS Certified Solutions 
-            Architect Associate</h4>
-            <div class="options">
-              <div class="instructor">
-                <img src="assets/images/Rectangle 22.png" alt="">
-                <h5>Nicole Brown</h5>
-              </div>
-              <div class="price">
-                <p class="old-price">99.99$</p>
-                <p class="current-price">49.65$</p>
-              </div>
-            </div></div>
       </div>
 
-      </div>
-
-      <div class="learningHelp  mt-5">
-        <h4>We will help you learn what you are passionates about </h4>
+      <div class="learningHelp mt-5">
+        <h4>We will help you learn what you are passionates about</h4>
         <div class="content">
           <div class="photos">
-            <img class="img1" src="assets/images/learning1.jpg" alt="">
-            <img class="img2" src="assets/images/learning2.jpg" alt=""><img class="img3" src="assets/images/learning3.jpg" alt="">
+            <img class="img1" src="assets/images/learning1.jpg" alt="" />
+            <img class="img2" src="assets/images/learning2.jpg" alt="" /><img
+              class="img3"
+              src="assets/images/learning3.jpg"
+              alt=""
+            />
           </div>
           <div class="methods">
             <div class="method">
               <h5>Go at your own pace</h5>
-              <p>Find what you are intersted to learn online and choose what exactly best for you that you really passionate to learn and get to study about it</p>
+              <p>
+                Find what you are intersted to learn online and choose what
+                exactly best for you that you really passionate to learn and get
+                to study about it
+              </p>
               <div class="separator"></div>
               <p class="number">01.</p>
             </div>
             <div class="method">
               <h5>Learn from industry experts</h5>
-              <p>Find what you are intersted to learn online and choose what exactly best for you that you really passionate to learn and get to study about it</p>
+              <p>
+                Find what you are intersted to learn online and choose what
+                exactly best for you that you really passionate to learn and get
+                to study about it
+              </p>
               <div class="separator"></div>
               <p class="number">02.</p>
             </div>
             <div class="method">
               <h5>Find video courses on almost any topic</h5>
-              <p>Find what you are intersted to learn online and choose what exactly best for you that you really passionate to learn and get to study about it</p>
+              <p>
+                Find what you are intersted to learn online and choose what
+                exactly best for you that you really passionate to learn and get
+                to study about it
+              </p>
               <p class="number">03.</p>
             </div>
           </div>
@@ -413,34 +450,79 @@
 
       <div class="getStarted">
         <h6>It's time to start investing in yourself in learning</h6>
-        <p>Match your goals to our programs, explore your options, and map out your <br>
-          path to success. I plan to use skillfy for a long time!.</p>
-          <button>Get Started</button>
+        <p>
+          Match your goals to our programs, explore your options, and map out
+          your <br />
+          path to success. I plan to use skillfy for a long time!.
+        </p>
+        <button>Get Started</button>
       </div>
-      
+
       <div class="studentGoals">
-       <div class="heading">
-        <h5>What our students have to say</h5>
-        <div class="buttons">
-          <i class="fas fa-arrow-left"></i>
-          <i class="fas fa-arrow-right"></i>
-       </div>
-        </div>
-        <div class="students">
-          <div id="rebecca" class="rebecca card">
-            <img src="assets/images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt="">
-            <h6>Rebecca More</h6>
-            <p>Skillfy is a life saver. I don’t have the time money for a college education. My goal is to become a freelance web designer and thanks to Skillfy.</p>
+        <div class="heading">
+          <h5>What our students have to say</h5>
+          <div class="buttons">
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-right"></i>
           </div>
-          <div class="john card"><img src="assets/images/evan-dvorkin-FLhnC9S_UE8-unsplash.jpg" alt="">
+        </div>
+        <div class="students owl-carousel owl1 owl-theme">
+          <div id="rebecca" class="rebecca item card">
+            <img
+              src="assets/images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg"
+              alt=""
+            />
+            <h6>Rebecca More</h6>
+            <p>
+              Skillfy is a life saver. I don’t have the time money for a college
+              education. My goal is to become a freelance web designer and
+              thanks to Skillfy.
+            </p>
+          </div>
+          <div class="john item card">
+            <img
+              src="assets/images/evan-dvorkin-FLhnC9S_UE8-unsplash.jpg"
+              alt=""
+            />
             <h6>John Doe</h6>
-            <p>Skillfy is a life saver. I don’t have the time money for a college education. My goal is to become a freelance web designer and thanks to Skillfy.</p></div>
-          <div class="sarah card"><img src="assets/images/stefan-stefancik-QXevDflbl8A-unsplash.jpg" alt="">
+            <p>
+              Skillfy is a life saver. I don’t have the time money for a college
+              education. My goal is to become a freelance web designer and
+              thanks to Skillfy.
+            </p>
+          </div>
+          <div class="sarah item card">
+            <img
+              src="assets/images/stefan-stefancik-QXevDflbl8A-unsplash.jpg"
+              alt=""
+            />
             <h6>Sarah Thomas</h6>
-            <p>Skillfy is a life saver. I don’t have the time money for a college education. My goal is to become a freelance web designer and thanks to Skillfy.</p></div>
+            <p>
+              Skillfy is a life saver. I don’t have the time money for a college
+              education. My goal is to become a freelance web designer and
+              thanks to Skillfy.
+            </p>
+          </div>
         </div>
       </div>
 
+      <div class="partners mb-5">
+        <div class="heading mt-5 mb-4">
+          <h5>What our students have to say</h5>
+          <div class="buttons">
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="partner-logos owl-carousel owl2 owl-theme">
+          <img class="item" src="assets/images/Partner 01.png" alt="" />
+          <img class="item" src="assets/images/Partner 01.png" alt="" />
+          <img class="item" src="assets/images/Partner 01.png" alt="" />
+          <img class="item" src="assets/images/Partner 01.png" alt="" />
+          <img class="item" src="assets/images/Partner 01.png" alt="" />
+          <img class="item" src="assets/images/Partner 01.png" alt="" />
+        </div>
+      </div>
       <footer>
         <div class="footer-menu">
           <div class="company">
@@ -479,7 +561,9 @@
           </div>
         </div>
         <div class="rightsreserved">
-          <p>© 2015-2020 Skillfy Education Private Limited. All rights reserved</p>
+          <p>
+            © 2015-2020 Skillfy Education Private Limited. All rights reserved
+          </p>
           <div class="sm-accounts">
             <i class="fab fa-facebook-f"></i>
             <i class="fab fa-twitter"></i>
@@ -489,12 +573,9 @@
         </div>
       </footer>
     </div>
-
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="lib/owl-carousel/owl.carousel.js"></script>
+    <script src="lib/owl-carousel/owl.carousel.min.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
