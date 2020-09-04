@@ -35,7 +35,7 @@
 
 $(".owl1").owlCarousel({
   loop: true,
-  margin: 30,
+  margin: 10,
   nav: true,
   responsive: {
     0: {
@@ -52,7 +52,7 @@ $(".owl1").owlCarousel({
 
 $(".owl2").owlCarousel({
   loop: true,
-  margin: 30,
+  margin: 10,
   nav: true,
   responsive: {
     0: {
@@ -63,6 +63,23 @@ $(".owl2").owlCarousel({
     },
     1000: {
       items: 5,
+    },
+  },
+});
+
+$(".owl3").owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    600: {
+      items: 5,
+    },
+    1000: {
+      items: 3,
     },
   },
 });

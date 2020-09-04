@@ -89,6 +89,7 @@
   position: absolute;
   right: 0;
   padding-top: 10px;
+  cursor: pointer;
 }
 
 .container .courseSearch img {
@@ -161,6 +162,7 @@
           align-items: center;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .container .chooseCourse .courses .design:hover {
@@ -191,6 +193,7 @@
           align-items: center;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .container .chooseCourse .courses .development:hover {
@@ -221,6 +224,7 @@
           align-items: center;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .container .chooseCourse .courses .it:hover {
@@ -251,6 +255,7 @@
           align-items: center;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .container .chooseCourse .courses .business:hover {
@@ -281,6 +286,7 @@
           align-items: center;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .container .chooseCourse .courses .marketing:hover {
@@ -311,6 +317,7 @@
           align-items: center;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .container .chooseCourse .courses .photography:hover {
@@ -524,9 +531,170 @@
   border-radius: 10px;
 }
 
+.container .course-selection {
+  padding: 50px;
+  background-color: #fef0ef;
+}
+
+.container .course-selection .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .course-selection .heading .dropdown {
+  display: inline-block;
+}
+
+.container .course-selection .heading .viewAll {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #f56962;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.container .course-selection .ourCourses {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .course-selection .ourCourses .course {
+  max-width: 320px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0 10px 10px;
+}
+
+.container .course-selection .ourCourses .course h4 {
+  font-size: 17px;
+}
+
+.container .course-selection .ourCourses .course img {
+  width: 300px;
+  height: 200px;
+}
+
+.container .course-selection .ourCourses .course .stats {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .course-selection .ourCourses .course .stats .fa-star {
+  color: #f3b23a;
+}
+
+.container .course-selection .ourCourses .course .stats .fa-eye {
+  color: #db4500;
+}
+
+.container .course-selection .ourCourses .course .stats .fa-play-circle {
+  color: #3e9365;
+}
+
+.container .course-selection .ourCourses .course .stats p {
+  font-size: 12px;
+}
+
+.container .course-selection .ourCourses .course .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .course-selection .ourCourses .course .options .instructor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .course-selection .ourCourses .course .options .instructor img {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+
+.container .course-selection .ourCourses .course .options .instructor h5 {
+  font-size: 12px;
+  display: inline-block;
+  margin-left: 10px;
+  padding-top: 7px;
+}
+
+.container .course-selection .ourCourses .course .options .price {
+  padding-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .course-selection .ourCourses .course .options .price .old-price {
+  text-decoration: line-through;
+  opacity: 50%;
+}
+
+.container .course-selection .ourCourses .course .options .price .current-price {
+  color: #f68c20;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.container .course-selection .owl-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1000px;
+}
+
+.container .course-selection .owl-nav .owl-prev,
+.container .course-selection .owl-nav .owl-next {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  outline: none;
+}
+
+.container .course-selection .owl-nav .owl-prev:hover,
+.container .course-selection .owl-nav .owl-next:hover {
+  background-color: #f56962;
+}
+
+.container .course-selection .owl-dots {
+  display: none;
+}
+
 .container .getStarted {
   width: 100%;
-  height: 700px;
+  height: 400px;
   background-image: url(../images/Bg.png);
   background-repeat: no-repeat;
   background-size: 100% 400px;
@@ -562,6 +730,7 @@
 }
 
 .container .studentGoals .heading {
+  position: relative;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -570,15 +739,6 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 80%;
-}
-
-.container .studentGoals .heading .buttons .fas {
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  text-align: center;
-  padding-top: 15%;
-  border-radius: 5px;
 }
 
 .container .studentGoals .students {
@@ -620,11 +780,25 @@
   line-height: 30px;
 }
 
-.container .studentGoals .students .active {
-  opacity: 100% !important;
+.container .studentGoals .students .owl-nav {
+  position: absolute;
+  top: -50px;
+  right: 30px;
+}
+
+.container .studentGoals .students .owl-nav button {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  outline: none;
+}
+
+.container .studentGoals .students .owl-dots {
+  display: none;
 }
 
 .container .partners .heading {
+  position: relative;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -635,15 +809,6 @@
   width: 80%;
 }
 
-.container .partners .heading .buttons .fas {
-  width: 50px;
-  height: 50px;
-  background-color: #efeff6;
-  text-align: center;
-  padding-top: 15%;
-  border-radius: 5px;
-}
-
 .container .partners .partner-logos {
   margin: 0 auto;
 }
@@ -651,6 +816,23 @@
 .container .partners .partner-logos img {
   width: 132px;
   margin-left: 40px;
+}
+
+.container .partners .partner-logos .owl-dots {
+  display: none;
+}
+
+.container .partners .partner-logos .owl-nav {
+  position: absolute;
+  right: 0;
+  top: -70px;
+}
+
+.container .partners .partner-logos .owl-nav button {
+  width: 40px;
+  height: 40px;
+  background-color: #efeff6;
+  outline: none;
 }
 
 .container footer {

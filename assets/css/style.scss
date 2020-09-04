@@ -70,6 +70,7 @@
           position: absolute;
           right: 0;
           padding-top: 10px;
+          cursor: pointer;
         }
       }
     }
@@ -122,6 +123,7 @@
         position: relative;
         align-items: center;
         transition: 0.3s ease-in-out;
+        cursor: pointer;
       }
       .design:hover {
         background-color: #5444a5;
@@ -141,6 +143,7 @@
         position: relative;
         align-items: center;
         transition: 0.3s ease-in-out;
+        cursor: pointer;
       }
       .development:hover {
         background-color: #ef8543;
@@ -160,6 +163,7 @@
         position: relative;
         align-items: center;
         transition: 0.3s ease-in-out;
+        cursor: pointer;
       }
       .it:hover {
         background-color: #18afed;
@@ -179,6 +183,7 @@
         position: relative;
         align-items: center;
         transition: 0.3s ease-in-out;
+        cursor: pointer;
       }
       .business:hover {
         background-color: #5fd46d;
@@ -198,6 +203,7 @@
         position: relative;
         align-items: center;
         transition: 0.3s ease-in-out;
+        cursor: pointer;
       }
       .marketing:hover {
         background-color: #5444a5;
@@ -217,6 +223,7 @@
         position: relative;
         align-items: center;
         transition: 0.3s ease-in-out;
+        cursor: pointer;
       }
       .photography:hover {
         background-color: #18afed;
@@ -376,9 +383,118 @@
     }
   }
 
+  .course-selection {
+    padding: 50px;
+    background-color: #fef0ef;
+    .heading {
+      display: flex;
+      justify-content: space-between;
+      .dropdown {
+        display: inline-block;
+      }
+      .viewAll {
+        border: none;
+        outline: none;
+        color: white;
+        background-color: #f56962;
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+      }
+    }
+    .ourCourses {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .course {
+        max-width: 320px;
+        background-color: white;
+        padding: 10px;
+        margin: 10px 0 10px 10px;
+        h4 {
+          font-size: 17px;
+        }
+        img {
+          width: 300px;
+          height: 200px;
+        }
+        .stats {
+          margin-top: 10px;
+          display: flex;
+          justify-content: space-between;
+          .fa-star {
+            color: #f3b23a;
+          }
+          .fa-eye {
+            color: #db4500;
+          }
+          .fa-play-circle {
+            color: #3e9365;
+          }
+          p {
+            font-size: 12px;
+          }
+        }
+        .options {
+          display: flex;
+          justify-content: space-between;
+          .instructor {
+            display: flex;
+            justify-content: space-between;
+            img {
+              width: 30px;
+              height: 30px;
+              display: inline-block;
+            }
+            h5 {
+              font-size: 12px;
+              display: inline-block;
+              margin-left: 10px;
+              padding-top: 7px;
+            }
+          }
+          .price {
+            padding-top: 5px;
+            display: flex;
+            justify-content: space-between;
+            .old-price {
+              text-decoration: line-through;
+              opacity: 50%;
+            }
+            .current-price {
+              color: #f68c20;
+              font-weight: bold;
+              margin-left: 5px;
+            }
+          }
+        }
+      }
+    }
+
+    .owl-nav {
+      display: flex;
+      justify-content: space-between;
+      width: 1000px;
+      .owl-prev,
+      .owl-next {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        outline: none;
+      }
+      .owl-prev:hover,
+      .owl-next:hover {
+        background-color: #f56962;
+      }
+    }
+
+    .owl-dots {
+      display: none;
+    }
+  }
   .getStarted {
     width: 100%;
-    height: 700px;
+    height: 400px;
     background-image: url(../images/Bg.png);
     background-repeat: no-repeat;
     background-size: 100% 400px;
@@ -408,26 +524,16 @@
     background-color: #efeff6;
     padding-top: 20px;
     .heading {
+      position: relative;
       margin: 0 auto;
       display: flex;
       justify-content: space-between;
       width: 80%;
-      .buttons {
-        .fas {
-          width: 50px;
-          height: 50px;
-          background-color: white;
-          text-align: center;
-          padding-top: 15%;
-          border-radius: 5px;
-        }
-      }
     }
     .students {
       display: flex;
       justify-content: space-between;
       padding: 30px;
-
       .card {
         position: relative;
         width: 340px;
@@ -452,34 +558,50 @@
           line-height: 30px;
         }
       }
-      .active {
-        opacity: 100% !important;
+      .owl-nav {
+        position: absolute;
+        top: -50px;
+        right: 30px;
+        button {
+          width: 40px;
+          height: 40px;
+          background-color: white;
+          outline: none;
+        }
+      }
+      .owl-dots {
+        display: none;
       }
     }
   }
 
   .partners {
     .heading {
+      position: relative;
       margin: 0 auto;
       display: flex;
       justify-content: space-between;
       width: 80%;
-      .buttons {
-        .fas {
-          width: 50px;
-          height: 50px;
-          background-color: #efeff6;
-          text-align: center;
-          padding-top: 15%;
-          border-radius: 5px;
-        }
-      }
     }
     .partner-logos {
       margin: 0 auto;
       img {
         width: 132px;
         margin-left: 40px;
+      }
+      .owl-dots {
+        display: none;
+      }
+      .owl-nav {
+        position: absolute;
+        right: 0;
+        top: -70px;
+        button {
+          width: 40px;
+          height: 40px;
+          background-color: #efeff6;
+          outline: none;
+        }
       }
     }
   }
