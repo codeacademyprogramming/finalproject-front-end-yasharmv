@@ -1,0 +1,210 @@
+.container {
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.container .navbar {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container .navbar .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .navbar .logo img {
+  width: 28px;
+  height: 28px;
+}
+
+.container .navbar .logo h1 {
+  margin-left: 10px;
+  font-size: 25px;
+  padding: 5px 5px 0 0;
+}
+
+.container .navbar .search i {
+  margin: 0 15px 0 15px;
+}
+
+.container .navbar .search button {
+  width: 125px;
+  height: 47px;
+  background-color: #f56962;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.container .search-course {
+  position: relative;
+  background-color: #efeff6;
+  height: 170px;
+}
+
+.container .search-course .navbar {
+  position: absolute;
+  left: 18%;
+  top: 40%;
+  width: 700px;
+  background-color: #efeff6 !important;
+}
+
+.container .search-course .navbar input {
+  width: 500px;
+}
+
+.container .search-course .navbar i {
+  color: white;
+  background-color: #f56962;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.container .choice {
+  padding: 50px;
+}
+
+.container .choice .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .choice .heading .categories .btn {
+  background-color: #efeff6;
+  margin-right: 5px;
+}
+
+.container .choice .heading .dropdown {
+  display: inline-block;
+}
+
+.container .choice .heading .viewAll {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #f56962;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.container .choice .ourCourses {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .choice .ourCourses .course {
+  max-width: 320px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0 10px 10px;
+}
+
+.container .choice .ourCourses .course h4 {
+  font-size: 17px;
+}
+
+.container .choice .ourCourses .course img {
+  width: 300px;
+  height: 200px;
+}
+
+.container .choice .ourCourses .course .stats {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .choice .ourCourses .course .stats .fa-star {
+  color: #f3b23a;
+}
+
+.container .choice .ourCourses .course .stats .fa-eye {
+  color: #db4500;
+}
+
+.container .choice .ourCourses .course .stats .fa-play-circle {
+  color: #3e9365;
+}
+
+.container .choice .ourCourses .course .stats p {
+  font-size: 12px;
+}
+
+.container .choice .ourCourses .course .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .choice .ourCourses .course .options .instructor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .choice .ourCourses .course .options .instructor img {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+
+.container .choice .ourCourses .course .options .instructor h5 {
+  font-size: 12px;
+  display: inline-block;
+  margin-left: 10px;
+  padding-top: 7px;
+}
+
+.container .choice .ourCourses .course .options .price {
+  padding-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .choice .ourCourses .course .options .price .old-price {
+  text-decoration: line-through;
+  opacity: 50%;
+}
+
+.container .choice .ourCourses .course .options .price .current-price {
+  color: #f68c20;
+  font-weight: bold;
+  margin-left: 5px;
+}
+/*# sourceMappingURL=search-page.css.map */
