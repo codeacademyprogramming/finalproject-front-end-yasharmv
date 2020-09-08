@@ -18,18 +18,14 @@
       }
     }
     .search {
+      padding-top: 15px;
+      display: flex;
+      img {
+        width: 20px;
+        height: 20px;
+      }
       i {
         margin: 0 15px 0 15px;
-      }
-      button {
-        width: 125px;
-        height: 47px;
-        background-color: #f56962;
-        color: white;
-        border: none;
-        outline: none;
-        border-radius: 5px;
-        margin-left: 10px;
       }
     }
   }

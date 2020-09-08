@@ -1,0 +1,102 @@
+.container {
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  .navbar {
+    width: 90%;
+    margin: 0 auto;
+    .logo {
+      display: flex;
+      align-items: center;
+      img {
+        width: 28px;
+        height: 28px;
+      }
+      h1 {
+        margin-left: 10px;
+        font-size: 25px;
+        padding: 5px 5px 0 0;
+      }
+    }
+    .search {
+      padding-top: 15px;
+      display: flex;
+      img {
+        width: 20px;
+        height: 20px;
+      }
+      i {
+        margin: 0 15px 0 15px;
+      }
+    }
+  }
+
+  .learnGD {
+    background-image: url(../images/Rectanglebg.png);
+    background-repeat: no-repeat;
+    padding: 40px;
+    .content {
+      line-height: 30px;
+      width: 60%;
+      h1 {
+        font-weight: bold;
+        margin-bottom: 40px;
+      }
+      .stats {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        .fa-star {
+          display: flex;
+          color: #f3b23a;
+          p {
+            color: black;
+            margin-left: 5px;
+          }
+        }
+        .fa-eye {
+          display: flex;
+          color: #db4500;
+          p {
+            color: black;
+            margin-left: 5px;
+          }
+        }
+        .fa-clock {
+          display: flex;
+          color: #302d3a;
+          p {
+            color: black;
+            margin-left: 5px;
+          }
+        }
+        .fa-play-circle {
+          display: flex;
+          color: #3e9365;
+          p {
+            color: black;
+            margin-left: 5px;
+          }
+        }
+      }
+      .buttons {
+        margin-top: 25%;
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        button {
+          border: none;
+          outline: none;
+          border-radius: 5px;
+          padding: 7px;
+        }
+        .orange {
+          color: white;
+          background-color: #f68c20;
+        }
+        .gray {
+          background-color: #efeff6;
+        }
+      }
+    }
+  }
+}

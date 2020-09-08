@@ -1,0 +1,147 @@
+.container {
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.container .navbar {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container .navbar .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .navbar .logo img {
+  width: 28px;
+  height: 28px;
+}
+
+.container .navbar .logo h1 {
+  margin-left: 10px;
+  font-size: 25px;
+  padding: 5px 5px 0 0;
+}
+
+.container .navbar .search {
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .navbar .search img {
+  width: 20px;
+  height: 20px;
+}
+
+.container .navbar .search i {
+  margin: 0 15px 0 15px;
+}
+
+.container .learnGD {
+  background-image: url(../images/Rectanglebg.png);
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+
+.container .learnGD .content {
+  line-height: 30px;
+  width: 60%;
+}
+
+.container .learnGD .content h1 {
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.container .learnGD .content .stats {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .learnGD .content .stats .fa-star {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #f3b23a;
+}
+
+.container .learnGD .content .stats .fa-star p {
+  color: black;
+  margin-left: 5px;
+}
+
+.container .learnGD .content .stats .fa-eye {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #db4500;
+}
+
+.container .learnGD .content .stats .fa-eye p {
+  color: black;
+  margin-left: 5px;
+}
+
+.container .learnGD .content .stats .fa-clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #302d3a;
+}
+
+.container .learnGD .content .stats .fa-clock p {
+  color: black;
+  margin-left: 5px;
+}
+
+.container .learnGD .content .stats .fa-play-circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #3e9365;
+}
+
+.container .learnGD .content .stats .fa-play-circle p {
+  color: black;
+  margin-left: 5px;
+}
+
+.container .learnGD .content .buttons {
+  margin-top: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 500px;
+}
+
+.container .learnGD .content .buttons button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+.container .learnGD .content .buttons .orange {
+  color: white;
+  background-color: #f68c20;
+}
+
+.container .learnGD .content .buttons .gray {
+  background-color: #efeff6;
+}
+/*# sourceMappingURL=course-details.css.map */
