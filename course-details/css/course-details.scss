@@ -34,6 +34,7 @@
     background-image: url(../images/Rectanglebg.png);
     background-repeat: no-repeat;
     padding: 40px;
+    display: flex;
     .content {
       line-height: 30px;
       width: 60%;
@@ -96,6 +97,383 @@
         .gray {
           background-color: #efeff6;
         }
+      }
+    }
+    .buy-now {
+      background-color: white;
+      width: 330px;
+      margin: 0 auto;
+      padding: 15px;
+      box-shadow: 3px 3px 20px 15px #ccc;
+      img {
+        width: 300px;
+        height: 224px;
+      }
+      .price {
+        margin-top: 20px;
+        display: flex;
+
+        .current-price {
+          font-weight: bold;
+          font-size: 25px;
+        }
+        .old-price {
+          text-decoration: line-through;
+          opacity: 50%;
+          padding-top: 10px;
+        }
+        span {
+          opacity: 50%;
+          padding-top: 10px;
+          margin-left: 5px;
+        }
+      }
+      .fa-clock {
+        margin-top: 10px;
+        display: flex;
+        color: #f68c20;
+        p {
+          margin-left: 5px;
+        }
+      }
+      button {
+        color: white;
+        background-color: #f56962;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        width: 300px;
+        height: 45px;
+      }
+      .about-course {
+        margin-top: 40px;
+        h4 {
+          margin-bottom: 25px;
+        }
+        i {
+          display: flex;
+          color: #43c8b1;
+          p {
+            color: black;
+            margin-left: 20px;
+            font-weight: 300;
+            letter-spacing: 1px;
+          }
+        }
+        .line {
+          width: 300px;
+          height: 1px;
+          background-color: #cac6d4;
+          margin: 40px 0 40px 0;
+        }
+        .team-access {
+          p {
+            a {
+              color: #f68c20;
+              font-weight: bold;
+            }
+          }
+        }
+
+        .sm-accounts {
+          display: flex;
+          justify-content: space-between;
+
+          i {
+            color: #cac6d4;
+          }
+          .fa-instagram:hover {
+            color: #e1306c;
+          }
+          .fa-facebook-square:hover {
+            color: #4267b2;
+          }
+          .fa-whatsapp-square:hover {
+            color: #25d366;
+          }
+          .fa-twitter-square:hover {
+            color: #1da1f2;
+          }
+          .fa-linkedin:hover {
+            color: #0e76a8;
+          }
+          .fa-youtube-square:hover {
+            color: #0e76a8;
+          }
+        }
+      }
+    }
+  }
+  .course-selection {
+    padding: 50px;
+    background-color: #efeff6;
+    .heading {
+      display: flex;
+      justify-content: space-between;
+      .dropdown {
+        display: inline-block;
+      }
+      .viewAll {
+        border: none;
+        outline: none;
+        color: white;
+        background-color: #f56962;
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+      }
+    }
+    .ourCourses {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .course {
+        max-width: 320px;
+        background-color: white;
+        padding: 10px;
+        margin: 10px 0 10px 10px;
+        h4 {
+          font-size: 17px;
+        }
+        img {
+          width: 300px;
+          height: 200px;
+        }
+        .stats {
+          margin-top: 10px;
+          display: flex;
+          justify-content: space-between;
+          .fa-star {
+            color: #f3b23a;
+          }
+          .fa-eye {
+            color: #db4500;
+          }
+          .fa-play-circle {
+            color: #3e9365;
+          }
+          p {
+            font-size: 12px;
+          }
+        }
+        .options {
+          display: flex;
+          justify-content: space-between;
+          .instructor {
+            display: flex;
+            justify-content: space-between;
+            img {
+              width: 30px;
+              height: 30px;
+              display: inline-block;
+            }
+            h5 {
+              font-size: 12px;
+              display: inline-block;
+              margin-left: 10px;
+              padding-top: 7px;
+            }
+          }
+          .price {
+            padding-top: 5px;
+            display: flex;
+            justify-content: space-between;
+            .old-price {
+              text-decoration: line-through;
+              opacity: 50%;
+            }
+            .current-price {
+              color: #f68c20;
+              font-weight: bold;
+              margin-left: 5px;
+            }
+          }
+        }
+      }
+    }
+
+    .owl-nav {
+      display: flex;
+      justify-content: space-between;
+      width: 1000px;
+      .owl-prev,
+      .owl-next {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        outline: none;
+      }
+      .owl-prev:hover,
+      .owl-next:hover {
+        background-color: #f56962;
+      }
+    }
+
+    .owl-dots {
+      display: none;
+    }
+  }
+  .video-part {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fef0ef;
+    padding: 30px;
+    width: 70%;
+    margin: 0 auto;
+    .content {
+      p {
+        margin: 30px;
+        width: 300px;
+        font-size: 22px;
+        line-height: 40px;
+      }
+      .name {
+        font-size: 15px;
+      }
+    }
+    img {
+      width: 300px;
+      height: 300px;
+      margin-right: 20px;
+      margin-top: 30px;
+    }
+  }
+
+  .top-offers {
+    margin-top: 100px;
+    padding: 50px;
+    background-color: #efeff6;
+    .heading {
+      display: flex;
+      justify-content: space-between;
+      .dropdown {
+        display: inline-block;
+      }
+      .viewAll {
+        border: none;
+        outline: none;
+        color: white;
+        background-color: #f56962;
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+      }
+    }
+    .ourCourses {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .course {
+        max-width: 320px;
+        height: 276px;
+        background-color: white;
+        position: relative;
+        margin-right: 20px;
+        object-fit: cover;
+        p {
+          position: absolute;
+          top: 10px;
+          left: 15px;
+        }
+        h6 {
+          font-weight: bold;
+          position: absolute;
+          width: 130px;
+          top: 20%;
+          left: 15px;
+        }
+        h5 {
+          font-weight: bold;
+          color: white;
+          text-align: center;
+          width: 160px;
+          height: 60px;
+          padding: 5px;
+          border-radius: 5px;
+          position: absolute;
+          bottom: 20%;
+          left: -10px;
+          z-index: 1;
+        }
+        .blue {
+          background-color: #64929f;
+        }
+        .brown {
+          background-color: #b3a092;
+        }
+        .red {
+          background-color: #df4161;
+        }
+        .card-image {
+          position: absolute;
+          top: 0;
+          right: -55px;
+          width: 200px;
+          height: 300px;
+        }
+        .background {
+          position: absolute;
+          bottom: 0;
+        }
+      }
+    }
+
+    .owl-nav {
+      display: flex;
+      justify-content: space-between;
+      width: 1000px;
+      .owl-prev,
+      .owl-next {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        outline: none;
+      }
+      .owl-prev:hover,
+      .owl-next:hover {
+        background-color: #f56962;
+      }
+    }
+
+    .owl-dots {
+      display: none;
+    }
+  }
+
+  footer {
+    background-color: #282834;
+    padding: 40px 40px 0px 40px;
+    .footer-menu {
+      width: 900px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      margin-bottom: 70px;
+      h5 {
+        color: white;
+        margin-bottom: 30px;
+        font-size: 20px;
+      }
+      li {
+        color: white;
+        font-size: 15px;
+        opacity: 50%;
+        list-style-type: none;
+        margin-bottom: 7px;
+      }
+    }
+    .rightsreserved {
+      display: flex;
+      justify-content: space-between;
+      opacity: 50%;
+
+      bottom: 0;
+      p {
+        color: white;
+      }
+      i {
+        color: white;
+        margin-left: 10px;
       }
     }
   }

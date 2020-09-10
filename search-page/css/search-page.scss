@@ -380,16 +380,25 @@
       display: flex;
       justify-content: space-between;
       background-color: #fef0ef;
-      padding: 20px;
+      padding: 30px;
+      width: 70%;
+      margin: 0 auto;
       .content {
         p {
-          font-size: 32px;
-          line-height: 60px;
-          margin-top: 10%;
+          margin: 30px;
+          width: 300px;
+          font-size: 22px;
+          line-height: 40px;
         }
         .name {
           font-size: 15px;
         }
+      }
+      img {
+        width: 300px;
+        height: 300px;
+        margin-right: 20px;
+        margin-top: 30px;
       }
     }
   }
