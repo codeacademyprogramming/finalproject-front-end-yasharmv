@@ -98,7 +98,51 @@
           background-color: #efeff6;
         }
       }
-      
+      .about-instructor {
+        width: 100%;
+
+        margin: 0 auto;
+        background-color: #fef0ef;
+        padding: 20px;
+        .general-info {
+          display: flex;
+          img {
+            margin-top: 20px;
+            width: 137px;
+            height: 137px;
+            object-fit: cover;
+          }
+          .heading-section {
+            padding: 10px;
+            .stats {
+              .fa-star {
+                display: flex;
+                color: #f3b23a;
+                p {
+                  color: black;
+                  margin-left: 10px;
+                }
+              }
+              .fa-eye {
+                display: flex;
+                color: #db4500;
+                p {
+                  color: black;
+                  margin-left: 5px;
+                }
+              }
+              .fa-clock {
+                display: flex;
+                color: #302d3a;
+                p {
+                  color: black;
+                  margin-left: 5px;
+                }
+              }
+            }
+          }
+        }
+      }
     }
     .buy-now {
       background-color: white;
