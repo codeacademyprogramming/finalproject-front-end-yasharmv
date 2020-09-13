@@ -98,7 +98,109 @@
           background-color: #efeff6;
         }
       }
-      
+      .overview {
+        display: none;
+      }
+      .feedback {
+        margin-top: 20px;
+        background-color: #fef0ef;
+        padding: 20px;
+        h4 {
+          font-weight: bold;
+          margin-bottom: 20px;
+        }
+        .course-rating {
+          display: flex;
+          justify-content: space-evenly;
+          .overall {
+            padding: 10px;
+            background-color: white;
+            width: 170px;
+            height: 165px;
+            text-align: center;
+            h6 {
+              font-size: 50px;
+              font-weight: bold;
+            }
+            .rating-stars {
+              i {
+                color: #f3b23a;
+              }
+            }
+          }
+          .progress-bars {
+            margin-top: 10px;
+            .bar {
+              margin-bottom: 28px;
+              width: 200px;
+              height: 7px;
+              background-color: white;
+              .progress {
+                height: 100%;
+                background-color: #f68c20;
+              }
+              .progress1 {
+                width: 80%;
+              }
+              .progress2 {
+                width: 70%;
+              }
+              .progress3 {
+                width: 60%;
+              }
+              .progress4 {
+                width: 50%;
+              }
+              .progress5 {
+                width: 40%;
+              }
+            }
+          }
+          .stars {
+            .star-row {
+              display: flex;
+              align-items: center;
+              margin-bottom: 5px;
+              i {
+                color: #f3b23a;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+              }
+              .gray {
+                color: #cac6d4;
+              }
+              p {
+                font-size: 12px;
+                margin-bottom: 0;
+                margin-left: 10px;
+              }
+            }
+          }
+        }
+        .review {
+          color: #5f5982;
+          .user {
+            display: flex;
+            justify-content: space-between;
+            .user-info {
+              width: 300px;
+              display: flex;
+              img {
+                margin-right: 15px;
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
+              }
+            }
+            .user-point {
+              i {
+                color: #f3b23a;
+              }
+            }
+          }
+        }
+      }
     }
     .buy-now {
       background-color: white;
@@ -182,6 +284,7 @@
 
           i {
             color: #cac6d4;
+            font-size: 30px;
           }
           .fa-instagram:hover {
             color: #e1306c;

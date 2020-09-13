@@ -148,6 +148,146 @@
   background-color: #efeff6;
 }
 
+.container .learnGD .content .overview {
+  display: none;
+}
+
+.container .learnGD .content .feedback {
+  margin-top: 20px;
+  background-color: #fef0ef;
+  padding: 20px;
+}
+
+.container .learnGD .content .feedback h4 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.container .learnGD .content .feedback .course-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container .learnGD .content .feedback .course-rating .overall {
+  padding: 10px;
+  background-color: white;
+  width: 170px;
+  height: 165px;
+  text-align: center;
+}
+
+.container .learnGD .content .feedback .course-rating .overall h6 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.container .learnGD .content .feedback .course-rating .overall .rating-stars i {
+  color: #f3b23a;
+}
+
+.container .learnGD .content .feedback .course-rating .progress-bars {
+  margin-top: 10px;
+}
+
+.container .learnGD .content .feedback .course-rating .progress-bars .bar {
+  margin-bottom: 28px;
+  width: 200px;
+  height: 7px;
+  background-color: white;
+}
+
+.container .learnGD .content .feedback .course-rating .progress-bars .bar .progress {
+  height: 100%;
+  background-color: #f68c20;
+}
+
+.container .learnGD .content .feedback .course-rating .progress-bars .bar .progress1 {
+  width: 80%;
+}
+
+.container .learnGD .content .feedback .course-rating .progress-bars .bar .progress2 {
+  width: 70%;
+}
+
+.container .learnGD .content .feedback .course-rating .progress-bars .bar .progress3 {
+  width: 60%;
+}
+
+.container .learnGD .content .feedback .course-rating .progress-bars .bar .progress4 {
+  width: 50%;
+}
+
+.container .learnGD .content .feedback .course-rating .progress-bars .bar .progress5 {
+  width: 40%;
+}
+
+.container .learnGD .content .feedback .course-rating .stars .star-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5px;
+}
+
+.container .learnGD .content .feedback .course-rating .stars .star-row i {
+  color: #f3b23a;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .learnGD .content .feedback .course-rating .stars .star-row .gray {
+  color: #cac6d4;
+}
+
+.container .learnGD .content .feedback .course-rating .stars .star-row p {
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.container .learnGD .content .feedback .review {
+  color: #5f5982;
+}
+
+.container .learnGD .content .feedback .review .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .learnGD .content .feedback .review .user .user-info {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .learnGD .content .feedback .review .user .user-info img {
+  margin-right: 15px;
+  width: 60px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .learnGD .content .feedback .review .user .user-point i {
+  color: #f3b23a;
+}
+
 .container .learnGD .buy-now {
   background-color: white;
   width: 330px;
@@ -253,6 +393,7 @@
 
 .container .learnGD .buy-now .about-course .sm-accounts i {
   color: #cac6d4;
+  font-size: 30px;
 }
 
 .container .learnGD .buy-now .about-course .sm-accounts .fa-instagram:hover {
